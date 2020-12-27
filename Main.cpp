@@ -585,16 +585,7 @@ int main()
 	SeatNode* seat_head = NULL;
 	initialize_seats(&seat_head);
 
-	//system("cls");
-	//display_text(menus[2], color = 12);
-	//display_text(Third_menu[0]);
-	//display_text(Third_menu[1]);
-	//display_text(Third_menu[2]);
-	//display_text(Third_menu[3]);
-	//third_menu(&user_head, &seat_head);
-	//Sleep(200);
-
-	//greeting();
+	greeting();
 	display_text(menus[0], color = 12);
 	display_text(Main_menu[0]);
 	display_text(Main_menu[1]);
